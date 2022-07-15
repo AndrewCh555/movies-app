@@ -24,7 +24,6 @@ const Delete = styled.div`
 class UpdateMovie extends Component {
     updateUser = event => {
         event.preventDefault()
-// console.log('111' + this.props.id);
         window.location.href = `/movies/update/${this.props.id}`
     }
 
@@ -75,8 +74,7 @@ class MoviesList extends Component {
 
     render() {
         const { movies, isLoading } = this.state
-        // console.log('TCL: MoviesList -> render -> movies', movies)
-
+        
         const columns = [
             {
                 Header: 'ID',

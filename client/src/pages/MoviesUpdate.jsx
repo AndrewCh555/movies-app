@@ -44,8 +44,7 @@ class MoviesUpdate extends Component {
        
         
         
-        this.state = {id: this.props.match.params.id,
-            // id: this.props.match.params.id,
+        this.state = {id: this.props.match.params.id,            
             name: '',
             rating: '',
             time: '',
